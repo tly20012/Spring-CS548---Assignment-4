@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
+
+// Custom Hook
 const useStoreData = () => {
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);

@@ -71,6 +71,7 @@ router.post('/store-check', async (req, res) => {
             };
         }
 
+        logger.info('GitHub settings fetched successfully');
         res.json(minimalResponse); // Send minimal response
     } catch (error) {
         logger.error('Error processing data:', error);
