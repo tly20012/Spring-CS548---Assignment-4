@@ -18,8 +18,10 @@ This repository contains a React application and an HTTPS web service.
 
 3. Start the React app.
     ```
-    npm start
+    node index.js
     ```
+
+Note: POST request to the server, it includes a boolean `storeCheck` field in the request body.
 
 4. Access the app at http://localhost:3000.
 
