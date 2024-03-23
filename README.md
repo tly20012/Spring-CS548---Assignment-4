@@ -39,7 +39,7 @@ Note: POST request to the server, it includes a boolean `storeCheck` field in th
 
 3. Start the HTTPS service.
     ```
-    npm index.js
+    node index.js
     ```
 
 4. The service will run on port 8080 by default.
