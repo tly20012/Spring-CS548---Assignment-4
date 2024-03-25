@@ -12,7 +12,7 @@ const routes = require('./routes/routes')
 // Create Express app
 const app = express()
 
-const port = process.env.PORT
+const port = settings.PORT
 
 app.use(express.json())
 app.use(cors())

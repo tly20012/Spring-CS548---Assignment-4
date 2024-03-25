@@ -13,7 +13,7 @@ const useStoreData = () => {
                 const response = await axios.post('https://localhost:8080/store-check', {
                     storeCheck: true
                 });
-                setData(response.data);
+                setData(response.data.minimalResponse);
                 setLoading(false);
             } catch (error) {
                 console.error('Error fetching data:', error);

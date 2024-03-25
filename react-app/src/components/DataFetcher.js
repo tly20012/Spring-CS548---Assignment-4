@@ -15,7 +15,7 @@ const DataFetcher = () => {
             ) : (
                 data && (
                     <div>
-                        {data.operatingStatus ? (
+                        {data.operatingStatus == "ACTIVE" ? (
                             <>
                                 <p className="data-fetcher-info">Operating Status: {data.operatingStatus}</p>
                                 <p className="data-fetcher-info">Is Premium Store: {data.isPremiumStore ? 'Yes' : 'No'}</p>
