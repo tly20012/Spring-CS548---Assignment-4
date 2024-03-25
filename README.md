@@ -18,7 +18,7 @@ This repository contains a React application and an HTTPS web service.
 
 3. Start the React app.
     ```
-    node index.js
+    npm start
     ```
 
 Note: POST request to the server, it includes a boolean `storeCheck` field in the request body.
@@ -39,7 +39,7 @@ Note: POST request to the server, it includes a boolean `storeCheck` field in th
 
 3. Start the HTTPS service.
     ```
-    npm start
+    node index.js
     ```
 
 4. The service will run on port 8080 by default.
